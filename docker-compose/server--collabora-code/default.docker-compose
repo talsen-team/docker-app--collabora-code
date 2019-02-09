@@ -1,0 +1,16 @@
+version:            '3'
+
+services:
+  server--collabora-code:
+    build:
+      context:      './../../docker/server--collabora-code'
+      dockerfile:   'default.docker'
+    cap_add:
+      -             'MKNOD'
+    container_name: 'server--collabora-code'
+    env_file:
+      -             './../../container.env'
+    image:          'talsenteam/docker-collabora-code:v4.0.0.2'
+    ports:
+      -             '443:9980'
+    restart:        'no'

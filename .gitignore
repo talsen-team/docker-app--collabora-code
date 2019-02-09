@@ -4,6 +4,14 @@
 !.vscode/tasks.json
 !bash-commands
 !bash-util
+!docker/
+!docker/server--collabora-code/
+!docker/server--collabora-code/default.docker
+!docker-compose/
+!docker-compose/server--collabora-code/
+!docker-compose/server--collabora-code/default.docker-compose
 !.gitignore
 !.gitmodules
+!container.env
+!host.env
 !LICENCE
