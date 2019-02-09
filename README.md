@@ -8,7 +8,7 @@ The server application collabora-code ready to run inside a docker container.
 
 ## how to use
 
-To easily experiment with draw-io, the following pre-requisites are preferred:
+To easily experiment with collabora-code, the following pre-requisites are preferred:
 
 1. Install [VS Code](https://code.visualstudio.com/), to easily use predefined [tasks](.vscode/tasks.json)
 2. Install any [ssh-askpass](https://man.openbsd.org/ssh-askpass.1) to handle sudo prompts required for docker  
@@ -24,7 +24,7 @@ Any docker-compose--* tasks refer to the default [dockerfile](docker/server--col
 
 - browser--*
   - [browser--open-application-url](bash-commands/browser--open-application-url.sh)  
-    Opens the localhost docekr service URL in the default web-browser. The opened URL is defined in [host.env](host.env) by the variable HOST_SERVICE_URL.
+    Opens the localhost docker service URL in the default web-browser. The opened URL is defined in [host.env](host.env) by the variable HOST_SERVICE_URL.
 - docker-compose--*
   - docker-compose--compose--*
     - [docker-compose--compose--create](bash-commands/docker-compose--compose--create.sh)  
