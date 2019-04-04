@@ -1,8 +1,8 @@
 # docker-app: collabora-code
 
-[![Docker Automated build](//img.shields.io/docker/cloud/automated/talsenteam/docker-collabora-code.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-collabora-code/)
-[![Docker Pulls](//img.shields.io/docker/pulls/talsenteam/docker-collabora-code.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-collabora-code/)
-[![Docker Build Status](//img.shields.io/docker/cloud/build/talsenteam/docker-collabora-code.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-collabora-code/)
+[![Docker Automated build](https://img.shields.io/docker/cloud/automated/talsenteam/docker-collabora-code.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-collabora-code/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/talsenteam/docker-collabora-code.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-collabora-code/)
+[![Docker Build Status](https://img.shields.io/docker/cloud/build/talsenteam/docker-collabora-code.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-collabora-code/)
 
 The server application collabora-code ready to run inside a docker container.
 
