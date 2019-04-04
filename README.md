@@ -1,8 +1,8 @@
 # docker-app: collabora-code
 
-[![Docker Automated build](https://img.shields.io/docker/cloud/automated/talsenteam/docker-collabora-code.svg?style=for-the-badge)](https://hub.docker.com/r/talsenteam/docker-collabora-code/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/talsenteam/docker-collabora-code.svg?style=for-the-badge)](https://hub.docker.com/r/talsenteam/docker-collabora-code/)
-[![Docker Build Status](https://img.shields.io/docker/cloud/build/talsenteam/docker-collabora-code.svg?style=for-the-badge)](https://hub.docker.com/r/talsenteam/docker-collabora-code/)
+[![Docker Automated build](//img.shields.io/docker/cloud/automated/talsenteam/docker-collabora-code.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-collabora-code/)
+[![Docker Pulls](//img.shields.io/docker/pulls/talsenteam/docker-collabora-code.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-collabora-code/)
+[![Docker Build Status](//img.shields.io/docker/cloud/build/talsenteam/docker-collabora-code.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-collabora-code/)
 
 The server application collabora-code ready to run inside a docker container.
 
@@ -10,8 +10,8 @@ The server application collabora-code ready to run inside a docker container.
 
 To easily experiment with collabora-code, the following pre-requisites are preferred:
 
-1. Install [VS Code](https://code.visualstudio.com/), to easily use predefined [tasks](.vscode/tasks.json)
-2. Install any [ssh-askpass](https://man.openbsd.org/ssh-askpass.1) to handle sudo prompts required for docker  
+1. Install [VS Code](//code.visualstudio.com/), to easily use predefined [tasks](.vscode/tasks.json)
+2. Install any [ssh-askpass](//man.openbsd.org/ssh-askpass.1) to handle sudo prompts required for docker  
    (VS Code does not run as root user, so in order to perform sudo operations the [`sudo --askpass CMD`](//github.com/talsen-team/docker-util--bash-util/blob/master/elevate.sh) feature is used)
 3. Install docker (at least version 18.09.1, build 4c52b90)
 4. Install docker-compose (at least version 1.21.2, build a133471)
