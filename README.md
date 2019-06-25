@@ -1,5 +1,6 @@
 # docker-app: collabora-code
 
+![GitHub tag (latest by date)](https://img.shields.io/github/tag-date/talsen-team/docker-app--collabora-code.svg?style=for-the-badge)
 [![Docker Automated build](https://img.shields.io/docker/cloud/automated/talsenteam/docker-collabora-code.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-collabora-code/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/talsenteam/docker-collabora-code.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-collabora-code/)
 [![Docker Build Status](https://img.shields.io/docker/cloud/build/talsenteam/docker-collabora-code.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-collabora-code/)
