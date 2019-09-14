@@ -10,7 +10,7 @@ services:
     container_name: 'server--collabora-code'
     env_file:
       -             './../../container.env'
-    image:          'talsenteam/docker-collabora-code:v4.0.5.2'
+    image:          'talsenteam/docker-collabora-code:v4.0.6.1'
     ports:
       -             '443:9980'
     restart:        'no'
