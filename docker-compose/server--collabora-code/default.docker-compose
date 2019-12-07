@@ -8,9 +8,15 @@ services:
     cap_add:
       -             'MKNOD'
     container_name: 'server--collabora-code'
+    deploy:
+      resources:
+        limits:
+          memory:     '3G'
+        reservations:
+          memory:     '1G'
     env_file:
       -             './../../container.env'
-    image:          'talsenteam/docker-collabora-code:v4.0.8.2'
+    image:          'talsenteam/docker-collabora-code:v4.0.9.4'
     ports:
       -             '443:9980'
     restart:        'no'
